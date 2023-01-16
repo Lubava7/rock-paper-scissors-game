@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Rock Papper Scissors</title>
+  </head>
+  <body>
+    <div class="rules-div">
+      <h1>Rules :</h1>
+      <ol>
+        <li class="rule1">Rock beats Scissors</li>
+        <li class="rule2">Scissors beats Paper</li>
+        <li class="rule3">Paper beats Rock</li>
+        <li class="rule4">Rock beats Lizard</li>
+        <li class="rule5">Lizard beats Spock</li>
+        <li class="rule6">Spock beats Scissors</li>
+        <li class="rule7">Scissors beats Lizard</li>
+        <li class="rule8">Lizard beats Paper</li>
+        <li class="rule9">Spock beats Rock</li>
+        <li class="rule10">Paper beats Spock</li>
+      </ol>
+    </div>
+    <div class="game-div">
+      <h1>Total rounds: <span id="total-round"></span></h1>
+      <h2>Computer: <span id="computer-choice"></span></h2>
+      <p>
+        Computer scores: <span id="computer-scores"></span
+        ><span id="computer-crown"></span>
+      </p>
+      <h2>You: <span id="user-choice"></span></h2>
+      <p>
+        Your scores: <span id="user-scores"></span><span id="user-crown"></span>
+      </p>
+      <h2>Winner: <span id="winner"></span></h2>
+      <button id="rock">rock</button>
+      <button id="paper">paper</button>
+      <button id="scissors">scissors</button>
+      <button id="lizard">lizard</button>
+      <button id="spock">spock</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
